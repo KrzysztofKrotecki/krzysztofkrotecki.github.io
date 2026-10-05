@@ -3,102 +3,269 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Krzysztof Krotecki | Energy & Battery Research</title>
-
+  <meta name="description" content="Krzysztof Krotecki – Research Engineer specializing in advanced energy storage, solid-state systems, and lithium-ion battery testing."/>
+  <title>Krzysztof Krotecki | Research Engineer – Energy Storage & Solid-State Systems</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-logo">KK</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <!-- HERO -->
-  <header class="hero">
-    <h1>Krzysztof Krotecki</h1>
-    <p>Electrical Engineer · Energy Systems · Lithium-ion Batteries</p>
+  <header class="hero" id="top">
+    <div class="hero-content">
+      <p class="hero-label">Research Engineer</p>
+      <h1>Krzysztof Krotecki</h1>
+      <p class="hero-subtitle">Advanced Energy Storage &amp; Solid-State Systems</p>
+      <p class="hero-location">Szczekociny, Poland · Open to international opportunities</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+        <a href="https://www.linkedin.com/in/krzysztof-krotecki" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+      </div>
+    </div>
   </header>
 
   <!-- ABOUT -->
-  <section class="section">
-    <h2>About</h2>
-    <p>
-      I am a graduate of Electrical Power Engineering with a master’s degree in
-      Electrotechnics from the Silesian University of Technology. My academic and
-      research work focuses on lithium-ion batteries, energy storage systems,
-      and sustainable energy technologies.
-    </p>
-  </section>
-
-  <!-- EXPERIENCE -->
-<section class="section">
-  <h2>Experience & Research</h2>
-
-  <div class="timeline">
-
-    <div class="timeline-item card">
-      <h3>Polytechnic University of Valencia</h3>
-      <span>Battery Safety Research · 2025 – 2026</span>
-      <p>
-        Research on lithium-ion battery safety systems, thermal runaway
-        prevention, and laboratory testing of energy storage systems.
-      </p>
-    </div>
-
-    <div class="timeline-item card">
-      <h3>Brno University of Technology</h3>
-      <span>Erasmus+ Internship · 2022 – 2023</span>
-      <p>
-        Development and testing of hybrid photovoltaic systems in laboratory
-        environments.
-      </p>
-    </div>
-
-    <div class="timeline-item card">
-      <h3>GBPBP Projprzemix</h3>
-      <span>Junior Electrical Design Assistant · 2023 – 2024</span>
-      <p>
-        Support in electrical system design for industrial construction projects.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-  <!-- EDUCATION -->
-  <section class="section">
-    <h2>Education</h2>
-
-    <div class="card">
-      <h3>Master’s Degree – Electrotechnics</h3>
-      <span>Silesian University of Technology · 2024 – 2025</span>
-      <p>Specialisation: Conversion and Usage of Electricity</p>
-    </div>
-
-    <div class="card">
-      <h3>Engineer’s Degree – Power Engineering</h3>
-      <span>Silesian University of Technology · 2019 – 2023</span>
-      <p>Specialisation: Renewable Energy</p>
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Detail-oriented and solution-driven Research Engineer with 1.5+ years of international laboratory experience across the full innovation chain of advanced energy storage systems.
+          </p>
+          <p>
+            Proven expertise in ceramic materials processing, argon glovebox operations, and lab-scale device prototyping (coin cells &amp; Swagelok configurations). Strongly skilled in advanced electrochemical characterization (Arbin, Gamry, EIS), thermal safety analytics (DSC, TGA), and experimental setup development (ARC test bench modification).
+          </p>
+          <p>
+            Competent in MATLAB for data analysis and software automation. Eager to contribute to the design, fabrication, and integration of next-generation solid-state ionic devices.
+          </p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight">
+            <span class="highlight-number">1.5+</span>
+            <span class="highlight-label">Years lab experience</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight-number">4</span>
+            <span class="highlight-label">International placements</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight-number">MSc</span>
+            <span class="highlight-label">Electrotechnics</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- SKILLS -->
-  <section class="section">
-    <h2>Skills & Languages</h2>
-    <ul class="skills">
-      <li>English — C1</li>
-      <li>German — A2</li>
-      <li>Czech & Slovak — B1</li>
-      <li>Energy Storage Systems</li>
-      <li>Battery Testing & Safety</li>
-      <li>Renewable Energy Systems</li>
-    </ul>
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Core Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Device Prototyping &amp; Fabrication</h3>
+          <ul>
+            <li>Ceramic coin cells assembly</li>
+            <li>Swagelok-type cells</li>
+            <li>Downscale cell engineering</li>
+            <li>Argon glovebox &amp; cleanroom operations</li>
+            <li>Active material harvesting</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Electrochemical &amp; Material Characterization</h3>
+          <ul>
+            <li>Electrochemical Impedance Spectroscopy (EIS)</li>
+            <li>Galvanostatic cycling</li>
+            <li>Differential Scanning Calorimetry (DSC)</li>
+            <li>Thermogravimetric Analysis (TGA)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Experimental Engineering &amp; Safety</h3>
+          <ul>
+            <li>ARC test bench modification</li>
+            <li>Pneumatic system integration</li>
+            <li>Battery abuse testing (overcharge, nail penetration)</li>
+            <li>Post-failure particle analysis</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Software &amp; Engineering Tools</h3>
+          <ul>
+            <li>MATLAB (data automation &amp; analysis)</li>
+            <li>Gamry Framework</li>
+            <li>Arbin MITS Pro</li>
+            <li>Autodesk Revit &amp; AutoCAD</li>
+            <li>MS Excel</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="languages">
+        <h3>Languages</h3>
+        <div class="lang-list">
+          <span class="lang-item"><strong>Polish</strong> — Native</span>
+          <span class="lang-item"><strong>English</strong> — Fluent / C1</span>
+          <span class="lang-item"><strong>Czech</strong> — Intermediate</span>
+          <span class="lang-item"><strong>German</strong> — Basic</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="timeline">
+
+        <!-- Valencia -->
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="job-header">
+              <h3>Erasmus+ Trainee – Battery Laboratory (Performance and Safety)</h3>
+              <span class="job-date">Oct 2025 – Jun 2026</span>
+            </div>
+            <p class="job-org">CMT, Universitat Politècnica de València · Valencia, Spain</p>
+            <ul class="job-bullets">
+              <li>Assembled and characterized ceramic coin cells and Swagelok-type prototype devices inside controlled argon glovebox environments to evaluate solid-state electrochemical performance.</li>
+              <li>Harvested active materials, electrodes, and separator layers from commercial lithium-ion prismatic cells to design downscaled laboratory testing platforms.</li>
+              <li>Conducted comprehensive electrochemical characterization using Arbin cyclers and Gamry potentiostats, including dynamic cycling protocols and EIS.</li>
+              <li>Processed ceramic-layer and functional material samples for thermal evaluation using DSC and TGA.</li>
+              <li>Modified an Accelerating Rate Calorimeter (ARC) test bench, engineered custom canister adaptations, and integrated a pneumatic nail-penetration system.</li>
+              <li>Executed controlled electrical, thermal, and mechanical abuse experiments while logging real-time voltage/temperature profiles and failure modes.</li>
+              <li>Performed post-failure material characterization and managed safe collection and analysis of particulate matter from thermal runaway events.</li>
+              <li>Authored SOPs, technical manuals, and laboratory safety documentation.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Tallinn -->
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="job-header">
+              <h3>Erasmus+ Trainee – e-Vehicle Lab</h3>
+              <span class="job-date">Mar 2025 – Jun 2025</span>
+            </div>
+            <p class="job-org">Tallinn University of Technology · Tallinn, Estonia</p>
+            <ul class="job-bullets">
+              <li>Characterized and tested energy storage architectures for electric vehicles, focusing on state-of-charge (SoC) and capacity evaluation of retired battery modules.</li>
+              <li>Automated processing pipelines for large battery-testing datasets using MATLAB to evaluate state-of-health (SoH) and cell degradation trends.</li>
+              <li>Authored and presented research outcomes and testing methodologies at the international MMM2025 conference.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Projprzem -->
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="job-header">
+              <h3>Junior Assistant to the Electrical Designer</h3>
+              <span class="job-date">Sep 2023 – Mar 2024</span>
+            </div>
+            <p class="job-org">GBPBP Projprzem · Poland</p>
+            <ul class="job-bullets">
+              <li>Engineered comprehensive 3D CAD models using Autodesk Revit and AutoCAD for electrical routing, infrastructure layouts, and energy storage facilities.</li>
+              <li>Prepared detailed technical drawings and schematics for industrial power supply installations, aligned with regional engineering standards and compliance codes.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Brno -->
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="job-header">
+              <h3>Erasmus+ Trainee – Laboratory for Hybrid Photovoltaic Systems</h3>
+              <span class="job-date">Aug 2022 – Jan 2023</span>
+            </div>
+            <p class="job-org">BUT Brno, Department of Electrical Power Engineering · Czech Republic</p>
+            <ul class="job-bullets">
+              <li>Evaluated hardware performance of hybrid inverters and designed physical laboratory setups to test solar-plus-storage integration platforms.</li>
+              <li>Conducted scientific literature reviews on advanced ceramic/solid-state systems and curated academic materials on grid-connected battery safety.</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-degree">MSc in Electrotechnics</div>
+          <div class="edu-spec">Conversion and Usage of Electricity</div>
+          <div class="edu-school">Silesian University of Technology, Poland</div>
+          <div class="edu-date">Graduated: Sep 2025</div>
+          <div class="edu-exchange">
+            <span class="exchange-label">International Exchange</span>
+            RWTH Aachen, Germany · Sep 2024 – Mar 2025
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-degree">BSc (Engineer) in Power Engineering</div>
+          <div class="edu-spec">Renewable Energy</div>
+          <div class="edu-school">Silesian University of Technology, Poland</div>
+          <div class="edu-date">Graduated: Jul 2023</div>
+          <div class="edu-exchange">
+            <span class="exchange-label">International Exchange</span>
+            OTH Regensburg, Germany · Mar 2021 – Jul 2021
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- CONTACT -->
-  <footer class="section contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:krotecki.krzysztof00@gmail.com">krotecki.krzysztof00@gmail.com</a></p>
-    <p>Phone: +48 780 095 585</p>
+  <footer class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">Open to research and engineering opportunities in advanced energy storage and solid-state systems.</p>
+      <div class="contact-grid">
+        <a href="mailto:krotecki.krzysztof00@gmail.com" class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">krotecki.krzysztof00@gmail.com</span>
+        </a>
+        <a href="tel:+48780095585" class="contact-item">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+48 780 095 585</span>
+        </a>
+        <div class="contact-item">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Szczekociny, Poland</span>
+        </div>
+        <a href="https://www.linkedin.com/in/krzysztof-krotecki" target="_blank" rel="noopener" class="contact-item">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">krzysztof-krotecki</span>
+        </a>
+      </div>
+      <p class="footer-note">© 2026 Krzysztof Krotecki</p>
+    </div>
   </footer>
 
 </body>
